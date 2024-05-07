@@ -1,0 +1,224 @@
+
+.header{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.header img{
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+
+.black-nav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #333;
+    font-size: 13px;
+}
+
+.wrap{
+    width: 1226px;
+    margin: 0 auto; /*上下边距为0，自动调整至水平居中*/
+}
+
+.black-nav .wrap .black-nav-left{
+    float: left;   /*靠在父级的左边*/
+}
+
+.black-nav .wrap .black-nav-right{
+    float: right;
+}
+
+
+.black-nav .wrap li{
+    float: left;
+    position: relative;
+}
+
+.black-nav a{
+    color: #cccccc;
+}
+
+.black-nav span{
+    color: #99CC99;
+    margin: 0 4px; /*上下边距为0，左右边距为4px*/
+}
+
+.download{
+    width: 124px;
+    height: 0;
+    background: #fff;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -62px;
+    overflow: hidden;
+}
+
+.download img{
+    width: 90px;
+    margin: 18px auto 0;
+}
+
+.download p{
+    color: #333;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.black-nav-left li:hover .download{
+    height: 148px;
+}
+
+.arrow{
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -8px;
+    display: none;
+}
+
+.black-nav-left li:hover .arrow{
+    display: block;
+}
+
+.cart{
+    width: 120px;
+    height: 50px;
+    margin-left: 25px;
+}
+
+.cart:hover{
+    background: #fff;
+}
+
+.cart:hover a{
+    color: #ff6700;
+}
+
+.cart-list{
+    width: 300px;
+    height: 0;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50px;
+    color: #424242;
+    overflow: hidden;
+    line-height: 40px;
+}
+
+.cart:hover .cart-list{
+    height: 40px;
+}
+
+.white-nav{
+    width: 100%;
+    height: 100px;
+    background: #fff;
+}
+
+.logo{
+    width: 55px;
+    height: 55px;
+    background: #ff6700;
+    float: left;
+    margin-top: 23px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.2s;  /*执行动画*/
+}
+
+.mi-home{
+    left: -55px;
+}
+
+.mi-logo{
+    left:0;
+}
+
+.logo:hover .mi-home{
+    left: 0;
+}
+
+.logo:hover .mi-logo{
+    left: 55px;
+}
+
+.nav-bar{
+    width: 875px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+}
+
+.search{
+    width: 296px;
+    height: 100px;
+    float: right;
+}
+
+.nav-bar li{
+    float: left;
+}
+
+.nav-bar li a{
+    color: #333;
+    padding: 0 10px;
+}
+
+.nav-bar li a:hover{
+    color: #ff6700;
+}
+
+.nav-bar li img{
+    margin-top: 23px;
+}
+
+
+.search input{
+    width: 244px;
+    height: 40px;
+    float: left;
+    border: 1px solid #e0e0e0;
+    border-right: 0;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 26px;
+    padding: 0 10px;
+}
+
+.search button{
+    width: 52px;
+    height: 40px;
+    float: right;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    margin-top: 26px;
+}
+
+.search button:hover{
+    color: #fff;
+    background: #ff6700;
+}
