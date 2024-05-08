@@ -60,6 +60,7 @@
     left: 50%;
     margin-left: -62px;
     overflow: hidden;
+    z-index:10;
 }
 
 .download img{
@@ -119,6 +120,7 @@
     color: #424242;
     overflow: hidden;
     line-height: 40px;
+    z-index:10;
 }
 
 .cart:hover .cart-list{
@@ -181,6 +183,7 @@
 
 .nav-bar li{
     float: left;
+    position: relative;
 }
 
 .nav-bar li a{
@@ -221,4 +224,25 @@
 .search button:hover{
     color: #fff;
     background: #ff6700;
+}
+
+.nav-bar-list{
+    width: 100%;
+    height: 229px;
+    background: #fff;
+    border-top: 1px solid #eee;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    display: none;
+    z-index:10;
+}
+
+.nav-bar li:hover>.nav-bar-list{
+    display: block;
+}
+
+.nav-bar-list li{
+    line-height: normal;
+    border-right: 1px solid #eee;
 }
