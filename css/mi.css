@@ -1,3 +1,6 @@
+body{
+    background: #f1f1f1;
+}
 
 .header{
     width: 100%;
@@ -384,4 +387,81 @@
 
 .ad-img img{
     width: 100%;
+}
+
+.content{
+    width: 100%;
+    overflow: hidden;
+    padding: 4px 0 12px;
+}
+
+.title{
+    text-align: left;
+    color: #333;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+}
+
+.phone-box{
+    width: 100%;
+    height: 614px;
+}
+
+.phone-box-left{
+    width: 234px;
+    height: 614px;
+    float: left;
+}
+
+.phone-box-right{
+    width: 992px;
+    height: 614px;
+    float: left;
+}
+
+.item{
+    width: 234px;
+    height: 300px;
+    margin: 0  0 14px 14px;
+    box-sizing: border-box;
+    padding: 20px 0;
+    float: left;
+    transition: all 0.2s linear;
+}
+
+.item:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+.item-name{
+    width: 210px;
+    height: 21px;
+    color: #333;
+    line-height: 21px;
+    margin: 0 auto 2px;
+}
+
+.item-desc{
+    width: 210px;
+    height: 18px;
+    color: #b0b0b0;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 auto 5px;
+}
+
+.item-price{
+    width: 210px;
+    height: 20px;
+    color: #ff6700;
+    line-height: 20px;
+    margin: 0 auto;
+}
+
+.big-img{
+    width: 100%;
+    height: 120px;
+    margin: 22px 0;
 }
