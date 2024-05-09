@@ -332,3 +332,56 @@
 .slide li:hover .slide-list{
     display: block;
 }
+
+.ad{
+    width: 100%;
+    height: 170px;
+    padding: 14px 0;
+    background: #fff;
+}
+
+.ad-aside{
+    width: 234px;
+    height: 170px;
+    background: #5f5750;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+    float: left;
+
+}
+
+.ad-aside li{
+    float: left;
+    width: 76px;
+    height: 82px;
+    padding-top: 18px;
+    box-sizing: border-box;
+    opacity: 0.7;
+}
+
+.ad-aside li:hover{
+    opacity: 1;
+}
+
+.ad-aside i{
+    font-size: 24px;
+    margin-bottom: 4px;
+    display: block;  /*默认的inline状态无法影响到其他元素的位置，所以margin-bottom无法将其他元素撑开*/
+    color: #fff;
+}
+
+.ad-aside p{
+    color: #fff;
+}
+
+.ad-img{
+    width: 316px;
+    margin-left: 14.6px;
+    height: 170px;
+    float: left;
+}
+
+.ad-img img{
+    width: 100%;
+}
